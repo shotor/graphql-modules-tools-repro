@@ -1,0 +1,9 @@
+type Query {
+  userWithError: User @isAuthenticated(error: true)
+  userWithoutError: User @isAuthenticated(error: true)
+}
+
+type User {
+  id: ID!
+  email: String!
+}

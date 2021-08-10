@@ -1,0 +1,1 @@
+directive @isAuthenticated(error: Boolean = false) on FIELD_DEFINITION

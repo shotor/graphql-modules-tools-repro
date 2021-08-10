@@ -1,0 +1,27 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "target": "es2020",
+        "module": "CommonJS",
+        "lib": ["es2020", "esnext.asynciterable"],
+        "skipLibCheck": true,
+        "strict": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "declaration": false,
+        "types": ["reflect-metadata"],
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noEmitOnError": true,
+        "baseUrl": "./",
+        "allowSyntheticDefaultImports": true,
+    },
+    "exclude": [
+        "dist",
+        "node_modules",
+    ]
+}
